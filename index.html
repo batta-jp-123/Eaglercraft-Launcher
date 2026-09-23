@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>EaglercraftX Launcher | 多语言版</title>
+  <title>EaglercraftX Launcher</title>
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="shortcut icon" href="/favicon.png">
   <style>
@@ -175,8 +175,20 @@
 <div id="toastMsg" class="toast-msg" style="opacity:0;"> </div>
 
 <script>
-  // ---------- 多语言字典（已添加苹果设备不兼容提示） ----------
+  // ---------- 言語 ----------
   const translations = {
+     jp: {
+      title: "⚡ Eaglercraft · Launcher",
+      subtitle: "バージョンを選択してすぐにプレイ！",
+      footer: "🎮 一部のバージョンファイルは外部CDNでホストされています | オフラインでも動作します",
+      cards: {
+        v188Wasm: { name: "Eaglercraft 1.8.8 WASM", badge: "Experimental", desc: "WebAssembly acceleration, smoother gameplay & faster loading. ⚠️ Not supported on Apple devices." },
+        v112Wasm: { name: "Eaglercraft 1.12 WASM", badge: "Modern", desc: "Latest blocks & mobs, WASM enhanced performance. ⚠️ Not supported on Apple devices." }
+      },
+      launchBtn: "▶ いますぐプレイ！",
+      loadingMsg: "ゲームを起動しています。しばらくお待ちください。",
+      disclaimer: "⚠️ 公式のMinecraftではありません。個人使用のみ。"
+    },
     en: {
       title: "⚡ EaglercraftX · Launcher",
       subtitle: "Choose a version and play immediately",
