@@ -182,9 +182,7 @@
       subtitle: "バージョンを選択してすぐにプレイ！",
       footer: "🎮 一部のバージョンファイルは外部CDNでホストされています | オフラインでも動作します",
       cards: {
-        v188: { name: "EaglercraftX 1.8.8", badge: "標準版", desc: "パフォーマンスのバランス、マルチプレイヤーとシングルプレイヤー、リソースパック。" },
         v188Wasm: { name: "Eaglercraft 1.8.8 WASM", badge: "高速版", desc: "WebAssemblyによる高速化で、よりスムーズなゲームプレイと高速な読み込みを実現します。⚠️ Appleデバイスではサポートされていません。" },
-        v112: { name: "Eaglercraft 1.12", badge: "標準版", desc: "ブロック、モブ、ゲームシステムなど、すべての要素が揃ったクラシックな1.12体験。" },
         v112Wasm: { name: "Eaglercraft 1.12 WASM", badge: "高速版", desc: "最新のブロックとモブ、WASMによるパフォーマンス向上。⚠️ Appleデバイスではサポートされていません。" }
       },
       launchBtn: "▶ いますぐプレイ！",
@@ -196,9 +194,7 @@
       subtitle: "Choose a version and play immediately",
       footer: "🎮 Some version files hosted on external CDN | Works offline",
       cards: {
-        v188: { name: "EaglercraftX 1.8.8", badge: "Most Stable", desc: "Balanced performance, multiplayer & singleplayer, resource packs." },
         v188Wasm: { name: "Eaglercraft 1.8.8 WASM", badge: "Experimental", desc: "WebAssembly acceleration, smoother gameplay & faster loading. ⚠️ Not supported on Apple devices." },
-        v112: { name: "Eaglercraft 1.12", badge: "Standard", desc: "Classic 1.12 experience with all blocks, mobs, and mechanics." },
         v112Wasm: { name: "Eaglercraft 1.12 WASM", badge: "Modern", desc: "Latest blocks & mobs, WASM enhanced performance. ⚠️ Not supported on Apple devices." }
       },
       launchBtn: "▶ Play Now",
@@ -210,9 +206,7 @@
       subtitle: "选择版本，即刻开始游戏",
       footer: "🎮 部分版本文件托管于外部 CDN | 支持离线游玩",
       cards: {
-        v188: { name: "EaglercraftX 1.8.8", badge: "最稳定版", desc: "性能均衡，支持联机/单机，材质包扩展。" },
         v188Wasm: { name: "Eaglercraft 1.8.8 WASM", badge: "实验性", desc: "WebAssembly 加速，更流畅的游戏体验与加载速度。⚠️ 不支持苹果设备。" },
-        v112: { name: "Eaglercraft 1.12", badge: "标准版", desc: "经典的 1.12 体验，包含所有方块、生物和机制。" },
         v112Wasm: { name: "Eaglercraft 1.12 WASM", badge: "现代版", desc: "最新生物/方块，WASM 性能增强。⚠️ 不支持苹果设备。" }
       },
       launchBtn: "▶ 开始游戏",
@@ -224,9 +218,7 @@
       subtitle: "Scegli una versione e gioca subito",
       footer: "🎮 Alcuni file delle versioni sono ospitati su CDN esterno | Gioca offline",
       cards: {
-        v188: { name: "EaglercraftX 1.8.8", badge: "Più Stabile", desc: "Prestazioni equilibrate, multiplayer e singleplayer, pacchetti risorse." },
         v188Wasm: { name: "Eaglercraft 1.8.8 WASM", badge: "Sperimentale", desc: "Accelerazione WebAssembly, esperienza di gioco più fluida. ⚠️ Non supportato su dispositivi Apple." },
-        v112: { name: "Eaglercraft 1.12", badge: "Standard", desc: "Esperienza classica 1.12 con tutti i blocchi, mob e meccaniche." },
         v112Wasm: { name: "Eaglercraft 1.12 WASM", badge: "Moderno", desc: "Ultimi mob/blocchi, prestazioni potenziate con WASM. ⚠️ Non supportato su dispositivi Apple." }
       },
       launchBtn: "▶ Gioca Ora",
@@ -246,11 +238,9 @@
     setTimeout(() => toast.style.opacity = "0", 2500);
   }
 
-  // =============== 版本文件映射 ===============
+  // =============== バージョンファイルマッピング ===============
   const localVersions = {
-    "1.8.8": "eagler-1.8.8.html",
     "1.8.8-wasm": "eagler-1.8.8-wasm.html",
-    "1.12": "https://helne-emc112.netlify.app/",
     "1.12-wasm": "eagler-1.12-wasm.html"
   };
   // ===========================================
